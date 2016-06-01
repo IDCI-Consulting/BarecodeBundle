@@ -1,0 +1,10 @@
+services:
+    idci_barcode.generator:
+        class: IDCI\BarcodeBundle\Generator\Generator
+
+    idci_barcode.twig.extension:
+        class: IDCI\BarcodeBundle\Twig\Extensions\Barcode
+        arguments:
+            - @idci_barcode.generator
+        tags:
+            - { name: twig.extension }
