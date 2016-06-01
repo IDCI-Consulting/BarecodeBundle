@@ -41,6 +41,5 @@
   "autoload": {
     "psr-4": { "IDCI\\Bundle\\BarcodeBundle\\": "" }
   },
-  "target-dir": "IDCI/Bundle/BarcodeBundle",
   "minimum-stability": "stable"
 }
