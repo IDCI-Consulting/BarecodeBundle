@@ -1,6 +1,6 @@
 <?php
 
-namespace IDCI\BarcodeBundle;
+namespace IDCI\Bundle\BarcodeBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

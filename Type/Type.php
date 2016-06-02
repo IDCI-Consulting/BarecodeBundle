@@ -1,6 +1,6 @@
 <?php
 
-namespace IDCI\BarcodeBundle\Type;
+namespace IDCI\Bundle\BarcodeBundle\Type;
 
 /**
  * Class BarcodeType

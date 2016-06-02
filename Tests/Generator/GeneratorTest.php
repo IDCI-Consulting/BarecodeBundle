@@ -1,9 +1,9 @@
 <?php
 
-namespace IDCI\BarcodeBundle\Tests\Generator;
+namespace IDCI\Bundle\BarcodeBundle\Tests\Generator;
 
 use PHPUnit_Framework_TestCase;
-use IDCI\BarcodeBundle\Generator\Generator;
+use IDCI\Bundle\BarcodeBundle\Generator\Generator;
 
 /**
  * Class GeneratorTest

@@ -1,9 +1,9 @@
 <?php
 
-namespace IDCI\BarcodeBundle\Tests\Type;
+namespace IDCI\Bundle\BarcodeBundle\Tests\Type;
 
 use PHPUnit_Framework_TestCase;
-use IDCI\BarcodeBundle\Type\Type;
+use IDCI\Bundle\BarcodeBundle\Type\Type;
 
 /**
  * Class TypeTest

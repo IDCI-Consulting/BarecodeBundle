@@ -1,10 +1,10 @@
 <?php
 
-namespace IDCI\BarcodeBundle\Twig\Extensions;
+namespace IDCI\Bundle\BarcodeBundle\Twig\Extensions;
 
 use Twig_Extension;
 use Twig_SimpleFunction;
-use IDCI\BarcodeBundle\Generator\Generator;
+use IDCI\Bundle\BarcodeBundle\Generator\Generator;
 
 /**
  * Class Project_Twig_Extension

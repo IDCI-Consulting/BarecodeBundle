@@ -1,10 +1,10 @@
 <?php
 
-namespace IDCI\BarcodeBundle\Lib;
+namespace IDCI\Bundle\BarcodeBundle\Lib;
 
-use IDCI\BarcodeBundle\Lib\QRcode;
-use IDCI\BarcodeBundle\Lib\Datamatrix;
-use IDCI\BarcodeBundle\Lib\PDF417;
+use IDCI\Bundle\BarcodeBundle\Lib\QRcode;
+use IDCI\Bundle\BarcodeBundle\Lib\Datamatrix;
+use IDCI\Bundle\BarcodeBundle\Lib\PDF417;
 
 /**
  * Description of DNS2D

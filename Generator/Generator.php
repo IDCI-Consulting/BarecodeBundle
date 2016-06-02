@@ -1,13 +1,13 @@
 <?php
 
-namespace IDCI\BarcodeBundle\Generator;
+namespace IDCI\Bundle\BarcodeBundle\Generator;
 
 use Symfony\Component\OptionsResolver\OptionsResolver;
 use Symfony\Component\OptionsResolver\Options;
 
-use IDCI\BarcodeBundle\Type\Type;
-use IDCI\BarcodeBundle\Lib\DNS2D;
-use IDCI\BarcodeBundle\Lib\DNS1D;
+use IDCI\Bundle\BarcodeBundle\Type\Type;
+use IDCI\Bundle\BarcodeBundle\Lib\DNS2D;
+use IDCI\Bundle\BarcodeBundle\Lib\DNS1D;
 
 /**
  * Class Generator

@@ -1,6 +1,6 @@
 <?php
 
-namespace IDCI\BarcodeBundle\Lib;
+namespace IDCI\Bundle\BarcodeBundle\Lib;
 
 // File name   : PDF417.php
 // Author      : Dinesh Rabara

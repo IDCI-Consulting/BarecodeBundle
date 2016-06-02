@@ -1,6 +1,6 @@
 <?php
 
-namespace IDCI\BarcodeBundle\Lib;
+namespace IDCI\Bundle\BarcodeBundle\Lib;
 
 /**
  * Description of DNS1D

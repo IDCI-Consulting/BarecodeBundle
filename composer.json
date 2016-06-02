@@ -39,7 +39,8 @@
     "phpunit/phpunit": "4.5.0"
   },
   "autoload": {
-    "psr-4": { "IDCI\\Bundle\\BarcodeBundle\\": "" }
+    "psr-0": { "IDCI\\Bundle\\BarcodeBundle\\": "" }
   },
+  "target-dir": "IDCI/Bundle/BarcodeBundle",
   "minimum-stability": "dev"
 }

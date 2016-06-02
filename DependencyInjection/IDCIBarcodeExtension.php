@@ -1,6 +1,6 @@
 <?php
 
-namespace SGK\BarcodeBundle\DependencyInjection;
+namespace IDCI\Bundle\BarcodeBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;

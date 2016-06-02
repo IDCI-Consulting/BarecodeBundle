@@ -1,9 +1,9 @@
 services:
     idci_barcode.generator:
-        class: IDCI\BarcodeBundle\Generator\Generator
+        class: IDCI\Bundle\BarcodeBundle\Generator\Generator
 
     idci_barcode.twig.extension:
-        class: IDCI\BarcodeBundle\Twig\Extensions\Barcode
+        class: IDCI\Bundle\BarcodeBundle\Twig\Extensions\Barcode
         arguments:
             - @idci_barcode.generator
         tags:
