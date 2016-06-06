@@ -94,9 +94,6 @@ class Generator
             ->setRequired(array(
                 'code', 'type', 'format',
             ))
-            ->setDefined(array(
-                'width', 'height', 'color',
-            ))
             ->setDefaults(array(
                 'width' => function (Options $options) {
                     return Type::getDimension($options['type']) == '2D' ? 5 : 2;
@@ -107,32 +104,22 @@ class Generator
                 'color' => function (Options $options) {
                     return $options['format'] == 'png' ? array(0, 0, 0) : 'black';
                 },
-            ));
-
-            $allowedTypes = array(
+            ))
+            ->setAllowedTypes(array(
                 'code'   => array('string'),
                 'type'   => array('string'),
                 'format' => array('string'),
                 'width'  => array('integer'),
                 'height' => array('integer'),
                 'color'  => array('string', 'array'),
-            );
-
-            foreach ($allowedTypes as $typeName => $typeValue) {
-                $resolver->setAllowedTypes($typeName, $typeValue);
-            }
-
-            $allowedValues = array(
+            ))
+            ->setAllowedValues(array(
                 'type'   => array_merge(
                     Type::$oneDimensionalBarcodeType,
                     Type::$twoDimensionalBarcodeType
                 ),
                 'format' => array('html', 'png', 'svg'),
-            );
-
-            foreach ($allowedValues as $valueName => $value) {
-                $resolver->setAllowedValues($valueName, $value);
-            }
-
+            ))
+        ;
     }
 }
