@@ -5,6 +5,6 @@ services:
     idci_barcode.twig.extension:
         class: IDCI\Bundle\BarcodeBundle\Twig\Extensions\Barcode
         arguments:
-            - @idci_barcode.generator
+            - "@idci_barcode.generator"
         tags:
             - { name: twig.extension }
