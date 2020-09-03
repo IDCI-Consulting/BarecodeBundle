@@ -105,21 +105,14 @@ class Generator
                     return $options['format'] == 'png' ? array(0, 0, 0) : 'black';
                 },
             ))
-            ->setAllowedTypes(array(
-                'code'   => array('string'),
-                'type'   => array('string'),
-                'format' => array('string'),
-                'width'  => array('integer'),
-                'height' => array('integer'),
-                'color'  => array('string', 'array'),
-            ))
-            ->setAllowedValues(array(
-                'type'   => array_merge(
-                    Type::$oneDimensionalBarcodeType,
-                    Type::$twoDimensionalBarcodeType
-                ),
-                'format' => array('html', 'png', 'svg'),
-            ))
+            ->setAllowedTypes('code', array('string'))
+            ->setAllowedTypes('type', array('string'))
+            ->setAllowedTypes('format', array('string'))
+            ->setAllowedTypes('width', array('integer'))
+            ->setAllowedTypes('height', array('integer'))
+            ->setAllowedTypes('color', array('string', 'array'))
+            ->setAllowedValues('type', array_merge(Type::$oneDimensionalBarcodeType, Type::$twoDimensionalBarcodeType))
+            ->setAllowedValues('format', array('html', 'png', 'svg'))
         ;
     }
 }
