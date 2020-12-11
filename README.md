@@ -11,7 +11,6 @@ Features:
 
 ![IDCIBarcodeBundle](Resources/doc/README.png)
 
-
 Installation
 ------------
 
